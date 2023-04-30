@@ -1,7 +1,8 @@
 package com.example.hobbymanagementapp;
-
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import androidx.appcompat.app.AppCompatActivity;
+
 
 public class LogInActivity extends AppCompatActivity {
 
@@ -9,5 +10,11 @@ public class LogInActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
+    }
+
+    public void register(View view) {
+    }
+
+    public void login(View view) {
     }
 }

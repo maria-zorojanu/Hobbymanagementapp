@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Cursuri/Android_dev/apps/Hobbymanagementapp/app/src/main/res/drawable/edit_text_background.xml" value="0.14375" />
+        <entry key="..\:/Cursuri/Android_dev/apps/Hobbymanagementapp/app/src/main/res/drawable/title_background.xml" value="0.14375" />
         <entry key="..\:/Cursuri/Android_dev/apps/Hobbymanagementapp/app/src/main/res/layout/activity_log_in.xml" value="0.12760416666666666" />
+        <entry key="..\:/Cursuri/Android_dev/apps/Hobbymanagementapp/app/src/main/res/layout/activity_main.xml" value="0.12708333333333333" />
+        <entry key="..\:/Cursuri/Android_dev/apps/Hobbymanagementapp/app/src/main/res/layout/activity_register.xml" value="0.12708333333333333" />
       </map>
     </option>
   </component>
