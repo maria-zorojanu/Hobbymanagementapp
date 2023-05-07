@@ -7,4 +7,16 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="my_darkestDark">#212533</color>
+    <color name="my_blueishDark">#233a45</color>
+    <color name="my_addButton">#dc8516</color>
+    <color name="my_textColor">#c9d6cd</color>
+
+    <color name="hobby_failed">#c83a3a</color>
+    <color name="hobby_veryBad">#c87b3a</color>
+    <color name="hobby_bad">#c8b03a</color>
+    <color name="hobby_normal">#407fae</color>
+    <color name="hobby_good">#40ae9f</color>
+    <color name="hobby_veryGood">#40ae50</color>
+    <color name="hobby_perfect">#2d8129</color>
 </resources>

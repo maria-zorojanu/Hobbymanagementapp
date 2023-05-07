@@ -77,8 +77,8 @@ public class RegisterActivity extends AppCompatActivity {
                             sharedPreferences.edit().putString("userName", name).apply();
                             sharedPreferences.edit().putString("uid", id).apply();
 
-                            //Intent mainMenuIntent = new Intent(getApplicationContext(), MainMenu.class);
-                            //startActivity(mainMenuIntent);
+                            Intent mainMenuIntent = new Intent(getApplicationContext(), HobbyActivity.class);
+                            startActivity(mainMenuIntent);
                         }else{
                             Log.i("task","failure");
                             Toast toast = Toast.makeText(getApplicationContext(), "Could not register", Toast.LENGTH_SHORT);

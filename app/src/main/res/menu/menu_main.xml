@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hobbymanagementapp.HobbyActivity">
+    <item
+        android:id="@+id/insertDemoTasks"
+        android:orderInCategory="100"
+        android:title="Insert Demo Tasks"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/filterOption"
+        android:orderInCategory="100"
+        android:title="Filter Tasks"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sortOption"
+        android:orderInCategory="100"
+        android:title="Sort Tasks"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/resetAllProgress"
+        android:orderInCategory="100"
+        android:title="Reset Task Progress"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/resetEverything"
+        android:orderInCategory="100"
+        android:title="Reset Everything"
+        app:showAsAction="never" />
+</menu>

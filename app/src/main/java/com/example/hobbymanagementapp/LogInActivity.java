@@ -90,10 +90,10 @@ public class LogInActivity extends AppCompatActivity {
                             }
                             id = user.getUid();
                             Log.i("id", id);
-                            //Intent mainMenuIntent = new Intent(getApplicationContext(), MainMenu.class);
+                            Intent mainMenuIntent = new Intent(getApplicationContext(), HobbyActivity.class);
                             sharedPreferences.edit().putString("userName", displayName).apply();
                             sharedPreferences.edit().putString("uid", id).apply();
-                            //startActivity(mainMenuIntent);
+                            startActivity(mainMenuIntent);
                         }else{
                             Log.d("log in", "fail");
                         }

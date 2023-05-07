@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:id="@+id/rowItemLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/hobbyText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="40"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingBottom="0dp"
+            android:text="Text"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/hobbyDueDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:paddingLeft="20dp"
+            android:text="Text"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/hobbySwitch"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_weight="80"
+        android:foregroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+</LinearLayout>
